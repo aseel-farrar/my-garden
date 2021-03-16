@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*{
+  box-sizing: border-box;
+
+}
+html{
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  width: 100%;
+  height: 10rem;
+  text-align: center;
+  align-items: center;
+  background-color:#3f8f8d;
+font-size: xx-large;
+font-weight: bolder;
+padding-top: 3rem;
+color: white;
+
+}
+
+main{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10rem;
+}
+
+form{
+  border: dotted 2px ;
+  padding: 2rem;
+}
+
+.formContianer{
+  grid-column: 1/2;
+}
+
+table :nth-child(even){
+  background-color: #ffd3de;
+
+}
+table :nth-child(odd){
+  background-color: #f6b8d1;
+
+}
+
+footer{
+  height: 3rem;
+  width: 100%;
+  background-color: #5dc0a6;
+  text-align: center;
+  color: white;
+  padding-top: .5rem;
+
+
+}
+
+body{
+  display: grid;
+  grid-template-rows: 10rem minmax(61rem, 1fr) 5rem;
+}
+
+
+#resetLocalStorege{
+  background-color: #ac0d0d;
+  padding: 1rem;
+  margin-top: 1rem;
+
+
+}
+
+#flowerSave{
+  background-color: #609c4d;
+  padding: 1rem;
+  margin-top: 1rem;
+
+
+
+}
+input{
+  margin: 1rem 0;
+
+
+
+}
+
+table{
+  border-left: none;
+  border-right: none;
+  border-top: white;
+  border-bottom: white;
+}
+table:first-child{
+  border-top: none;
+
+}
+table:last-child{
+  border-bottom: none;
+
+}
